@@ -1,6 +1,6 @@
 # Textbook Driven KCs
 
-In order to run these notebooks, you will need a GEMINI API KEY. Please follow intstructions at https://ai.google.dev/gemini-api/docs/api-key
+Note: In order to run these notebooks, you will need a GEMINI API KEY. Please follow intstructions at https://ai.google.dev/gemini-api/docs/api-key
 
 
 This project provides tools to convert textbook content into chunked Knowledge Components (KCs), and trace their correctness across student problem-solving data.
