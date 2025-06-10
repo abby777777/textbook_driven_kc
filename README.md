@@ -1,13 +1,13 @@
 This project provides tools to convert textbook content into chunked Knowledge Components (KCs), and trace their correctness across student problem-solving data.
 
-textbook_to_kcs.ipynb
+**textbook_to_kcs.ipynb**
 Goal:
 Takes a textbook (formatted as a CSV with one chapter per row) and outputs a list of chunked knowledge components (KCs) and their corresponding names.
 
 Note:
 For downstream use, you should manually refine and assign the relevant KCs to each homework problem. These KCs can then be added as a column to your student dataset.
 
-extraction_kcs.ipynb
+**extraction_kcs.ipynb**
 Goal:
 Extracts whether each KC in a problem is used correctly, incorrectly, or not at all.
 
