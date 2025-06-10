@@ -1,11 +1,16 @@
-textbook_to_kcs.ipynb
-Goal: Allows you to input a textbook in the form of a csv where each row is one chapter and output a list of chunked KCs and KC names.
+This project provides tools to convert textbook content into chunked Knowledge Components (KCs), and trace their correctness across student problem-solving data.
 
-In order to do extraction of KC correctness, you should manually decide and refine on KCs for each homework problem. These are then added as a column to your student data.
+textbook_to_kcs.ipynb
+Goal:
+Takes a textbook (formatted as a CSV with one chapter per row) and outputs a list of chunked knowledge components (KCs) and their corresponding names.
+
+Note:
+For downstream use, you should manually refine and assign the relevant KCs to each homework problem. These KCs can then be added as a column to your student dataset.
 
 extraction_kcs.ipynb
-Goal: Allows you to extract whether each KC in that problem is correctly, incorrectly, or not used in the problem.
+Goal:
+Extracts whether each KC in a problem is used correctly, incorrectly, or not at all.
 
-Read More on the Approach:
+For further context on the methodology and application, check out our SIGCSE 2025 poster:
 https://sigcse2025.sigcse.org/details/sigcse-ts-2025-posters/94/From-Code-to-Concepts-Textbook-Driven-Knowledge-Tracing-with-LLMs-in-CS1 
 
